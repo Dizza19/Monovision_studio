@@ -93,13 +93,13 @@ html {
 .promo {
   position: relative;
   min-height: 100vh;
-  background: url(../src/img/main_bg.jpg) center center / cover no-repeat;
+  background: url(../img/main_bg.jpg) center center / cover no-repeat;
   padding-top: 75px;
   @media screen and (max-width: 768px) {
-    background-image: url(../src/img/tablet_bg.jpg);
+    background-image: url(../img/tablet_bg.jpg);
   }
   @media screen and (max-width: 576px) {
-    background: url(../src/img/Bg\ \(2\).jpg) center center / cover no-repeat;
+    background: url(../img/Bg\ \(2\).jpg) center center / cover no-repeat;
     min-height: 500px;
     padding-top: 50px;
   }
@@ -185,7 +185,7 @@ html {
     top: -17px;
     width: 40px;
     height: 49px;
-    background: url(../src/icons/arrow.svg) center center / cover no-repeat;
+    background: url(../img/icons/arrow.svg) center center / cover no-repeat;
   }
   @media screen and (max-width: 1440px) {
     padding-bottom: 50px;
@@ -311,7 +311,7 @@ html {
       top: 2px;
       width: 15px;
       height: 15px;
-      background: url("/src/icons/camera.svg") center center / cover no-repeat;
+      background: url("/img/icons/camera.svg") center center / cover no-repeat;
       left: -30px;
     }
     &:nth-child(3)::before {
@@ -321,7 +321,7 @@ html {
       top: 2px;
       width: 15px;
       height: 15px;
-      background: url("/src/icons/edit.svg") center center / cover no-repeat;
+      background: url("/img/icons/edit.svg") center center / cover no-repeat;
       left: -30px;
     }
   }
